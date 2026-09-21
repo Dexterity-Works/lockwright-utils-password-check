@@ -1,9 +1,10 @@
-> [!WARNING]
-> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
-
-# pearpass-utils-password-check
+# lockwright-utils-password-check
 
 A utility library to check the strength of passwords and passphrases based on configurable rules.
+
+Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
+
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
 
 ## Table of Contents
 
@@ -33,13 +34,12 @@ This utility provides functions to check the strength of passwords and passphras
 
 ## Security Notice
 
-1. To ensure the security and integrity of your projects, please note that official PearPass packages are distributed exclusively through our GitHub organization.
-2. Any packages with similar names found on the npm registry or other third-party package managers are not affiliated with PearPass and should be strictly avoided. We recommend installing directly from this repository to ensure you are using the verified, open-source version.
+Imports stay `@tetherto/pearpass-utils-password-check`. That npm name is not this fork if you install it from the npm registry.
 
 ## Installation
 
 ```bash
-npm install git+https://github.com/tetherto/pearpass-utils-password-check.git
+npm install git+https://github.com/Dexterity-Works/lockwright-utils-password-check.git
 ```
 
 ## Usage Examples
@@ -90,11 +90,10 @@ This package has no runtime dependencies.
 
 ## Related Projects
 
-- [@tetherto/pearpass-app-mobile](https://github.com/tetherto/pearpass-app-mobile) - A mobile app for PearPass, a password manager
-- [@tetherto/pearpass-app-desktop](https://github.com/tetherto/pearpass-app-desktop) - A desktop app for PearPass, a password
-- [@tetherto/pearpass-lib-ui-react-native-components](https://github.com/tetherto/pearpass-lib-ui-react-native-components) - A library of React Native UI components for PearPass
-- [@tetherto/pearpass-lib-ui-react-components](https://github.com/tetherto/pearpass-lib-ui-react-components) - A library of React UI components for PearPass
-- [@tetherto/tether-dev-docs](https://github.com/tetherto/tether-dev-docs) - Documentations and guides for developers
+- [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile) - Lockwright for mobile
+- [lockwright-app-desktop](https://github.com/Dexterity-Works/lockwright-app-desktop) - Lockwright for desktop
+- [lockwright-lib-ui-react-native-components](https://github.com/Dexterity-Works/lockwright-lib-ui-react-native-components) - Lockwright UI kit
+- [tether-dev-docs](https://github.com/Dexterity-Works/tether-dev-docs) - Documentations and guides for developers
 
 ## License
 
