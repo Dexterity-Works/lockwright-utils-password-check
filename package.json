@@ -1,5 +1,5 @@
 {
-  "name": "@tetherto/pearpass-utils-password-check",
+  "name": "lockwright-utils-password-check",
   "version": "0.0.14",
   "description": "utility for checking the strength of password and passphrase",
   "main": "index.js",

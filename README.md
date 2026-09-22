@@ -34,7 +34,7 @@ This utility provides functions to check the strength of passwords and passphras
 
 ## Security Notice
 
-Imports stay `@tetherto/pearpass-utils-password-check`. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-utils-password-check`.
 
 ## Installation
 
@@ -46,7 +46,7 @@ npm install git+https://github.com/Dexterity-Works/lockwright-utils-password-che
 
 ### Checking Password Strength
 ```javascript
-import { checkPasswordStrength } from '@tetherto/pearpass-utils-password-check';
+import { checkPasswordStrength } from 'lockwright-utils-password-check';
 
 // With default rules
 const result = checkPasswordStrength('Test123!');
@@ -66,7 +66,7 @@ console.log(customResult.rules); // Detailed rules assessment
 
 ### Checking Passphrase Strength
 ```javascript
-import { checkPassphraseStrength } from '@tetherto/pearpass-utils-password-check';
+import { checkPassphraseStrength } from 'lockwright-utils-password-check';
 
 // With default rules
 const words = ['Test1!', 'Word2@', 'Example3#', 'Unique', 'Safe', 'Pass', 'Phrase', 'Another4$'];
